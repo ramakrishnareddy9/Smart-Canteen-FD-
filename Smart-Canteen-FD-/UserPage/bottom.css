@@ -1,0 +1,69 @@
+.bottom {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.container ul li {
+    display: inline;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.container ul li a:hover {
+    color: #f0a500;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.CopyRight {
+    font-size: 12px;
+    color: white;
+}
+
+.SocialMedia {
+    display: flex;
+    gap: 15px;
+}
+
+.SocialMedia a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.SocialMedia a img:hover {
+    transform: scale(1.2);
+}
